@@ -64,6 +64,9 @@
     <ClCompile Include="SpeciesConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EncounterDatabaseDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EncounterTera9.h">
@@ -108,6 +111,12 @@
     <ClInclude Include="SpeciesConverter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EventNames.inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RewardInfo.inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="ItemFilterDialog.ui">
@@ -120,6 +129,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="SettingsDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EncounterDatabaseDialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
@@ -137,6 +149,12 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="SettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EncounterDatabaseDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EncounterEntryModel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
